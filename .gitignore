@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
